@@ -1,0 +1,207 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.TextoLogo{
+    color: aliceblue;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+    
+    }
+
+.navbar{
+    background-color: transparent!important;
+    display: flex;
+    z-index: 99;
+    
+}
+
+.CarouselCentral{
+    margin-top: -100px;
+    margin-bottom: 4rem;
+}
+
+#Quienes_Somos{
+    
+    text-align: center;
+    color: aliceblue;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 500;
+    font-style: normal;
+    margin: 2rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    border-bottom:1px rgb(99, 93, 93) solid;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ContenedorCard1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+
+.ContenedorParrafoCartas{
+    margin-bottom: 4rem;
+
+    
+}
+
+
+.ColorPrincipal{
+    background-color: transparent;
+    width: 30%;
+
+}
+.icono{
+    color: aliceblue;
+    
+}
+.ContenedorCard2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+
+}
+
+.DestacaIconos{
+    background-color: rgb(60, 145, 167);
+    height: 30px;
+}
+/*_____________________CARTAS CON IMAGENES__________________________________*/
+#Destacados{
+    
+    text-align: center;
+    color: aliceblue;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 500;
+    margin: 2rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    border-bottom:1px rgb(99, 93, 93) solid;
+}
+
+.imagen{
+    width: 100%;
+    
+
+}
+.card-text2{
+color: aliceblue;
+font-family: "Raleway", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+}
+
+.CardDestacados{
+    background-color: rgb(60, 145, 167);
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 3rem;
+    padding: 0;
+    
+}
+
+
+
+/*___________________________FORMULARIO____________________________________*/
+#Contacto{
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom:1px rgb(99, 93, 93) solid;
+    text-align: center;
+    color: aliceblue;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 500;
+    margin: 2rem;
+    font-size: 1rem;
+}
+
+.ContenedorFormulario{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.NombresLabel{
+    color: aliceblue;
+		font-family: "Raleway", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 500;
+    font-size: 15px;
+}
+
+.BotonEnviar{
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+}
+
+.ContenedorContacto{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*____________________________________________________*/
+.TextoFooter{
+margin-top: 25px;
+display:inline-block;
+width: 50%;
+max-height: 100px;
+}
+
+.FOOTER{
+display:inline-block;
+background-color: rgb(60, 145, 167);
+text-align: center;
+width: 100%;
+height: 100px;
+}
+.BarraFinal{
+    margin-top: 3rem;
+}
+.ViajesFooter{
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+        text-align: initial;
+    }
+
+.IconosFooter{
+    color: aliceblue;
+    display: inline-block;
+    padding-right: 1rem;
+		
+    
+}
+.BloqueFinalIconos{
+	display: inline;
+	width: 50%;
+	max-height: 100px;
+	
+	}
+
+
+
+@media (min-width: 300px) and (max-width: 992px){
+
+	#Quienes_Somos{
+		display: none;
+	}
+	.ContenedorCard1 {
+        display: none;
+    }
+
+}
